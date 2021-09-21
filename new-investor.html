@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Exciting<strong>Look</strong></h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#services">Services</a></li>
+                <li><a href="./index.html#clients">Clients</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li class="active">
+                    <div class="dropdown">
+                        <a class="dropbtn" style="color: rgb(148, 148, 10);">Investors</a>
+                        <div class="dropdown-content">
+                            <a href="./new-investor.html">Become an investor</a>
+                            <a href="./investors.html">Our investors list</a>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <a href="./index.html#address">Contact us</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <section class="clientcontainer">
+                <form class="newInvestor">
+                    <h1>To become our investor, fill this form with your information</h1>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="co-name">Company name</label>
+                    <input type="email" id="co-name">
+                    <label for="desc">Tell us why you are interested in us.</label>
+                    <textarea id="desc" name="description"></textarea>
+                    <div style="display: flex; flex-direction: row;align-items: center;">
+                        <button>Apply</button>
+                        <center style="margin-left: auto;"><button onclick="goto()">Go to investors</button></center>
+                    </div>
+                </form>
+                
+            </section>
+        </div>
+        <footer>
+            <p>&copy; Copyright Group 12 2021</p>
+        </footer>
+    </div>
+    <script>
+        const goto=()=>{
+            window.location.href = "./investors.html"
+        }
+    </script>
+</body>
+</html>

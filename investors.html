@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Exciting<strong>Look</strong></h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#services">Services</a></li>
+                <li><a href="./index.html#clients">Clients</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li class="active">
+                    <div class="dropdown">
+                        <a class="dropbtn" style="color: rgb(148, 148, 10);">Investors</a>
+                        <div class="dropdown-content">
+                            <a href="./new-investor.html">Become an investor</a>
+                            <a href="./investors.html">Our investors list</a>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <a href="./index.html#address">Contact us</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <section class="clientcontainer">
+                <h2>Our investors</h2>
+                <div class="clients">
+                    <div class="client">
+                        <img src="./images/rp_logo.png">
+                        <h2>IPRC Kigali</h2>
+                    </div>
+                    <div class="client">
+                        <img src="./images/rp_logo.png">
+                        <h2>IPRC Kigali</h2>
+                    </div>
+                    <div class="client">
+                        <img src="./images/rp_logo.png">
+                        <h2>IPRC Kigali</h2>
+                    </div>
+                    <div class="client">
+                        <img src="./images/rp_logo.png">
+                        <h2>IPRC Kigali</h2>
+                    </div>
+                    <div class="client">
+                        <img src="./images/rp_logo.png">
+                        <h2>IPRC Kigali</h2>
+                    </div>
+                    <div class="client">
+                        <img src="./images/rp_logo.png">
+                        <h2>IPRC Kigali</h2>
+                    </div>
+                </div>
+                <center><button onclick="goto()">Become an investor</button></center>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; Copyright Group 12 2021</p>
+        </footer>
+    </div>
+    <script>
+        const goto=()=>{
+            window.location.href = "./new-investor.html"
+        }
+    </script>
+</body>
+</html>
