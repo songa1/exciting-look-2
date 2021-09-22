@@ -241,21 +241,21 @@ footer {
 
   .serContainer button {
     padding: 10px 20px;
-    outline: none;
-    border: none;
+    /* outline: none; */
+    /* border: none; */
     background-color: rgb(10, 10, 100);
     color: white;
-    width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* width: 100%; */
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
 }
 
-.service button {
+/* .service button {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-}
+} */
 
 .serContainer h2, .serContainer p {
     padding: 0px 20px;
